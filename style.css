@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: lightgrey;
+}
+
+/* common sytles */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.common-btn {
+  background-color: #fd6e0a;
+  padding: 18px 36px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.logo-r {
+  color: #fd6e0a;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 50px;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+/* Hero sectoin styles */
+.hero-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
