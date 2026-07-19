@@ -14,6 +14,17 @@ header {
   margin: auto;
 }
 
+.outline-btn {
+  background-color: white;
+  padding: 18px 36px;
+  border-radius: 5px;
+  color: #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #fd6e0a;
+  cursor: pointer;
+}
+
 .common-btn {
   background-color: #fd6e0a;
   padding: 18px 36px;
@@ -22,6 +33,7 @@ header {
   font-weight: bold;
   font-size: 20px;
   border: none;
+  cursor: pointer;
 }
 
 nav {
@@ -31,7 +43,8 @@ nav {
 }
 
 .logo {
-  font-weight: bold;
+  font-weight: 800;
+  font-size: 45px;
 }
 
 .logo-r {
@@ -51,8 +64,59 @@ ul li a {
 }
 
 /* Hero sectoin styles */
+.hero-parent-root {
+  background-color: #fff8f3;
+}
+
 .hero-parent {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.hero-left-p-1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+
+.hero-left-p-2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
+
+.hero-left h2 {
+  font-weight: 700;
+  font-size: 85px;
+}
+
+.hero-left-btn-parent {
+  margin-top: 12px;
+}
+
+/* About CSS section */
+.about-parent {
+  background-color: #fff8f3;
+  margin: 130px auto;
+  border-radius: 10px;
+  padding: 150px;
+  width: 1200px;
+  text-align: center;
+}
+
+.about-parent p {
+  margin: 20px 0;
+}
+
+.about-box-parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.about-box-parent .box {
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 5px;
 }
