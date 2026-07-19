@@ -141,11 +141,83 @@ ul li a {
   text-align: left;
 }
 
-.what-i-do-card-container .what-i-do-card h2 {
+.what-i-do-card-container .what-i-do-card h4 {
   margin: 10px 0;
 }
 
 .what-i-do-card-container .what-i-do-card p{
   color: #757575;
   font-size: 15px;
+}
+
+/* My amazing work css */
+.my-amazing-parent {
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  grid-auto-rows: 250px;
+  grid-template-areas: 
+  "one two three"
+  "four two six"
+  "four five six";
+}
+
+.gallery div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-1{
+  grid-area: one;
+}
+.box-2{
+  grid-area: two;
+}
+.box-3{
+  grid-area: three;
+}
+.box-4{
+  grid-area: four;
+}
+.box-5{
+  grid-area: five;
+}
+.box-6{
+  grid-area: six;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  margin-top: 70px !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  background-color: #fff8f3;
+}
+
+footer form {
+  padding: 50px;
+}
+
+.footer-left p, img  {
+  text-align: left;
+  margin: 20px ;
+}
+
+footer form input, textarea{
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10p0x;
+  margin: 6px;
+  display: block;
+  width: 100%;
 }
